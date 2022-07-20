@@ -7,7 +7,7 @@ body{
 }
 #topBanner {
     text-align: center;
-    background-image: url(./images/bannerbg.png);
+    background-image: url(./images/banner.png);
 }
 #topBanner > img{
     width: 100%;  
