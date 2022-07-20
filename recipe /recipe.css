@@ -40,11 +40,11 @@ body{
 /*Pre defined footer aligned on the right */
 pre{
     font-family: monospace;
-    text-align: right;
+    text-align: left;
 }
 /*HTML and CSS validator aligned on the right */
 #validator{
-    text-align: right;
+    text-align: justify;
 }
 /*Pie summary having a specific line-height*/
 #piesummary{
