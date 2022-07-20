@@ -1,13 +1,13 @@
 body{
     font-family: Verdana,Tahoma, sans-serif;
     font-size: 8pt;
-    background-image: url(background.png);
+    background-image: url(/images/background.png);
     margin: 0px;
     padding: 0px;
 }
 #topBanner {
     text-align: center;
-    background-image: url(bannerbg.png);
+    background-image: url(/images/bannerbg.png);
 }
 #topBanner > img{
     width: 100%;  
@@ -51,7 +51,7 @@ ul{
     width: 264px;
 }
 #posterHeader{
-    background-image: url(rbg.png);
+    background-image: url(/images/rbg.png);
     font-size: 48pt;
     color: red;
     font-weight: bold;
