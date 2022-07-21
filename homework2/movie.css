@@ -105,7 +105,9 @@ p:nth-child(2){
     bottom: 10px;
     right: 10px;
     opacity: 0.5;
-   float:right
-   
+    float:right
     
+}
+#main{
+    vertical-align: baseline;
 }
