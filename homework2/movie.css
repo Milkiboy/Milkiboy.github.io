@@ -5,15 +5,12 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.topBanner img{
-    
-    text-align: center;
-    background-image: url(./images/banner.png);
-}
-.topBanner > img{
+.topbanner{
     width: 100%;  
-    height: auto; 
+    height: 50;
+    background-image: url(./images/bannerbg.png)
 }
+
 h1{
     text-align: center;
     font-family: Tahoma, Verdana, sans-serif ;
