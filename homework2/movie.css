@@ -25,6 +25,7 @@ h1{
     border-radius: 20px;
     overflow:hidden;
     height:fit-content;
+    vertical-align: baseline;
    
 }
 #rightBanner{
@@ -105,5 +106,6 @@ p:nth-child(2){
     right: 10px;
     opacity: 0.5;
    float:right
+   
     
 }
