@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tasklist.css" >
-    <title>Document</title>
+    <script src="tasklist.js" type="text/JavaScript"></script>
+    <title>Task List Application</title>
 </head>
 <body>
     <div class="first">
@@ -23,8 +24,8 @@
         </div>
     </div>
     <script>
-       document.getElementById("tpage").innerHTML=localStorage.getItem("key");   
-        function addTask(){
+             
+             function addTask(){
             let x =document.getElementById("tskin");
            document.getElementById("tpage").value += x.value;
            document.getElementById("tskin").value="";
@@ -32,8 +33,9 @@
         }
         function clearTask(){
            
-           document.getElementById("tpage").value=""      
-}
+           document.getElementById("tpage").value="";
+        }
+     document.getElementById("tpage").innerHTML=localStorage.getItem("key"); 
      
     </script>
 </body>
