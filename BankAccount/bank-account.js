@@ -128,9 +128,10 @@ function myFunction2() {
 	//let x;
   for(var i = 0; i < accountInfo.length; i++) {
 	if(accountInfo[i].name===document.getElementById("debit3").value){
-		accountInfo[i]= parseInt(accountInfo[i].balance)+parseInt(document.getElementById("amount").value);
+		var x = parseInt(accountInfo[i].balance)+parseInt(document.getElementById("amount").value);
+		accountInfo[i].balance=x;
 		//var x=parseInt(document.getElementById("amount").value);
-		var x=accountInfo[i];
+		//var x=accountInfo[i];
 	}
 	}
 	document.getElementById("amount").value="";
