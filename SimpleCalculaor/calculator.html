@@ -11,11 +11,24 @@
 <body>
        <form action =
         "http://localhost:8080/add.js">
-         <div>Enter two numbers
-        <input type = "text" name="first"/><br/>
-            <input type = "text" name="second"/><br/>
-            <input type="submit" value="Click"/>
-         </div>
+        <fieldset >
+            <legend style="background-color: orange;">Enter two numbers:</legend>
+        <div>
+        <input type = "text" name="first"/><br/> 
+        <input type = "text" name="second"/><br/> 
+
+<select name="operation" id="operation">
+<option value="division">Divide</option>
+<option id="add" value="add">Add</option>
+<option value="subtract">Subtract</option>
+<option value="multiply">Multiply</option>
+
+</select>
+
+ <input type="submit" value="Click" style="background-color: orange; height: 27px; width: 75px;"/>  
+   
+</div>
+        </fieldset>
         </form> 
 </body>
 </html>
