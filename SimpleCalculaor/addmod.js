@@ -23,9 +23,9 @@ exports.displays=function(req,res,vals){
     res.write("<p style=\"background-color:orange\" ; style=\"font:14pt bold\";>The result is: ");
           res.write(String(result));
     res.write("</p>");
-    res.write(
-        "<a href='https://amannegash.github.io/myFirstRepository.github.io/Simple%20Calculator%20Lab/'>Another calculation</a>"
-      );
+    // res.write(
+    //     "<a href='https://amannegash.github.io/myFirstRepository.github.io/Simple%20Calculator%20Lab/'>Another calculation</a>"
+    //   );
     res.write("</body>");
     res.write("</html>");
     return res.end();
